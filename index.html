@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Css -->
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Meal DB</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="text-center bg-primary text-white py-3 fa-3x fw-bold m-0">
+        Meal DB
+      </h1>
+
+      <!-- Slider -->
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade px-5"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div
+            class="carousel-item d-flex justify-content-md-between align-items-md-center flex-md-row flex-column-reverse active"
+          >
+            <div class="carousel-txt">
+              <h4>Chef's Special</h4>
+              <h1>
+                Freshness <br />
+                in every bite
+              </h1>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <button class="px-3 py-2 rounded-3 mt-2">Show More</button>
+            </div>
+
+            <img
+              src="./Img/Lovepik_com-400214539-western-food-food-and-still-life.png"
+              class="d-block carousel-img"
+              alt="..."
+            />
+          </div>
+
+          <div
+            class="carousel-item d-flex justify-content-md-between align-items-md-center flex-md-row flex-column-reverse"
+          >
+            <div class="carousel-txt">
+              <h4>Chef's Special</h4>
+              <h1>
+                Freshness <br />
+                in every bite
+              </h1>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <button class="px-3 py-2 rounded-3 mt-2">Show More</button>
+            </div>
+            <img
+              src="./Img/Lovepik_com-400339280-western-food-and-food-still-life-shooting.png"
+              class="d-block carousel-img"
+              alt="..."
+            />
+          </div>
+
+          <div
+            class="carousel-item d-flex justify-content-md-between align-items-md-center flex-md-row flex-column-reverse"
+          >
+            <div class="carousel-txt">
+              <h4>Chef's Special</h4>
+              <h1>
+                Freshness <br />
+                in every bite
+              </h1>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <button class="px-3 py-2 rounded-3 mt-2">Show More</button>
+            </div>
+            <img
+              src="./Img/Lovepik_com-400366109-pictures-of-western-food-and-still-life.png"
+              class="d-block carousel-img"
+              alt="..."
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="my-5">
+      <!-- search -->
+      <div class="input-group mb-3 mx-auto search">
+        <input
+          id="input-field"
+          type="text"
+          class="form-control"
+          placeholder="Search Meal"
+          aria-label="Search Meal"
+          aria-describedby="button-addon2"
+        />
+        <button
+          class="btn btn-outline-secondary search-btn"
+          id="button-addon2 "
+          type="button"
+        >
+          Button
+        </button>
+      </div>
+
+      <!-- menu -->
+      <article
+        id="article"
+        class="mt-5 d-flex flex-wrap mx-5 gap-3 justify-content-center"
+      ></article>
+    </section>
+
+    <!-- popup -->
+    <article class="popup hidden" id="popup">
+      <div class="container">
+        <ul id="ul"></ul>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5 x-ico"
+          id="x-ico"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
+            clip-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </article>
+
+    <!-- Js -->
+    <script src="./app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
