@@ -28,7 +28,8 @@ body {
 .search {
   width: 30% !important;
 }
-.search .btn {
+
+.btn {
   margin: 0;
 }
 
